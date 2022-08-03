@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body{background: black;}
+#outer{
+	max-width: 1020px;
+	background: black;
+	margin: auto;
+}
+header{
+	background-size: 1100px;
+	height: 200px;
+}
+.hf{
+	/* controls styling of my header and footer */
+	width: 95%;
+	background-image: url("../images/bruno-van-der-kraan.jpg");
+	padding: 10px; /* padding comes in from the border */
+	margin: 10px; /* margin goes out from the border */
+	/* border: 1px solid black;  to show the borders */
+	border-radius: 20px;
+	clear: both;
+}
+h1{
+	text-align: right;
+	font-family:"Vladimir Script";
+	font-size: 40px;
+}
+img{float: right}
+nav{
+	width: 95%;
+	height: auto;
+	margin: 1%;
+	/* border: 1px solid black;  to show the borders */
+}
+ul{
+	float: both;
+	list-style:none;
+	overflow:hidden;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+li{
+	float: left;
+	display: inline;
+	width: 25%;
+}
+li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 20px;/* padding comes in from the border */
+	margin: 1px 15%; /* margin goes out from the border */
+	background-color: cadetblue;
+	border-radius: 20px; /* rounds the edges */
+	opacity: 0.6;
+}
+li a:hover{
+	background-color: cadetblue;
+	opacity: 1;
+	border-radius: 20px; /* rounds the edges */
+}
+main{
+	width: 95%;
+	/* height: 300px; to hold the height for now */
+	margin: 1%;
+	padding: 1%;
+	/* border: 1px solid black;  to show the borders */
+}
+#leftAside{
+	float: left;
+	width: 31%; /* width supposed to be 33% but that looks too squishy*/
+}
+#leftAside p{
+	text-overflow: clip;
+}
+#rightSection{
+	float: right;
+	width: 67%; /* width supposed to be 67% */
+	padding: 1%;
+	box-sizing: border-box;
+}
+#rightSectionDiv{
+	clear: both;
+	float: both;
+	padding: 1%;
+	border-radius: 20px;
+	background-image: url("../images/bruno-van-der-kraan.jpg");
+	background-size: 2500px;
+}
+#rightSectionDiv h2{
+	text-align: center;
+	font-family:"Vladimir Script";
+	font-size: 30px;
+}
+#rightSectionLong{
+	clear: left;
+	float: left; 
+	width: 48%; /* width supposed to be 50% but that looks too squishy*/
+}
+#rightSectionShort{
+	clear: right;
+	float: right;
+	width: 48%; /* width supposed to be 50% but that looks too squishy*/
+}
+#rightSectionSmall{
+	clear: right;
+	float: right;
+	width: 48%; /* width supposed to be 50% but that looks too squishy*/
+}
+.articles{
+	/* controls styling of all my text article boxes */
+	background:white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 1%;
+	margin: 1%;
+	/* border: 1px solid black; to show the borders */
+}
+footer{
+	background-size: 2500px;
+	height: 150px;
+	text-align: center;
+	font-family:"Vladimir Script";
+	font-size: 30px;
+}
